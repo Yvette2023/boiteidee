@@ -5,6 +5,8 @@ from django.http import HttpResponse
 
 def hello(request):
     
-    return HttpResponse(f"""
+    return HttpResponse(f""" 
                         <h1>hello popo ! </h1>
+                        
                         """)
+                        
